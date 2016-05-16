@@ -84,5 +84,7 @@ Then i used the python interpretter to get the key and decrypt the image
 >>> exit()
 ```
 
-This gives us [decrypted.png](files/decrypted.png) with the flag
+This gives us this image:
+![decrypted.png](files/decrypted.png) 
+with the flag
 >TUCTF{st@llowning_xOR_5ince_Apollo}
