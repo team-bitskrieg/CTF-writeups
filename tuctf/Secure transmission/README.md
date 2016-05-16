@@ -6,6 +6,7 @@
 ##Solution
 Filtering with 
 >tcp.stream eq 0
+
 shows that [a .pyc file](files/client.pyc) was downloaded from 192.168.188.129 by 192.168.188.130. This file was decompiled using [Uncompyle2](https://github.com/wibiti/uncompyle2). The output is this:
 
 
@@ -54,6 +55,7 @@ print plain
 
 b is randomly generated, and is used to generate the encryption key for AES encryption. The value of A,g,p,B can be found in 
 >tcp.stream eq 1
+
 We know B, which is pow(g, b, p). b can be found as the discrete log of B to the base g modulo p. This can be done in [bdcalc](http://www.di-mgt.com.au/bdcalc.html). 
 
 ```
