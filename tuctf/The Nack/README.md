@@ -31,4 +31,8 @@ We can use the python interpreter to convert this hex string to a GIF
 >>> exit()
 ```
 
-This gives us a [ROFLcopter](files/unhex.gif). One of the frames has the flag written on it. We used http://ezgif.com/split to split the GIF and get [the frame with the flag](files/frame_16_delay-0.01s.gif). The flag is TUCTF{this_transport_layer_is_a_syn}, which is funny because they used the SYN packets to transport the data.
+This gives us a [ROFLcopter](files/unhex.gif):
+
+![ROFLcopter](files/unhex.gif)
+
+. One of the frames has the flag written on it. We used http://ezgif.com/split to split the GIF and get [the frame with the flag](files/frame_16_delay-0.01s.gif). The flag is TUCTF{this_transport_layer_is_a_syn}, which is funny because they used the SYN packets to transport the data.
