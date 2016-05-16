@@ -11,7 +11,7 @@
 ![bump](files/bump.png)
 
 3. Zoom in
-![zoom](filez/zoom.png)
+![zoom](files/zoom.png)
 
 4. Realize it is morse
 
