@@ -2,6 +2,7 @@
 
 ##Challenge
 [A PCAP file](files/40bec2fdb682af3046465a54f7776c8adb26ea4d.pcapng) is given. It is mentioned that the flag is in the form "flag{...}"
+150 points
 
 ##Solution
 Filtering with 
