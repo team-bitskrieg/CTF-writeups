@@ -9,17 +9,7 @@ DecodeAES = lambda c, e: c.decrypt(e)
 BLOCK_SIZE=16
 
 secret = '1111111111111111'
-'''
-# cipher = AES.new(secret)
-# key=format(i, 'x')
-key = hex(i)
-by = key
 
-# by = bytes(i, "utf-8")
-by ='0x' +str('0' * (18 - len(by)))+by[2:]
-# b"abcde".decode("utf-8") 
-# print(by)
-'''
 while(True):
 	key=os.urandom(BLOCK_SIZE)
 	cipher = AES.new(key)
@@ -45,20 +35,6 @@ while(True):
 	elif first2==b'\x00\x06':
 		print(6)
 		print(binascii.hexlify(key))
-
-	# print(binascii.hexlify(key))
-
-# tube.recvuntil('Your key: ')
-# response2 = tube.recvline()
-# cipher_us = AES.new(secret)
-
-# decoded = DecodeAES(cipher, roll1[3])
-
-# encoded = EncodeAES(cipher, 'password')
-
-
-# print 'Encrypted string:', encoded
-
-# print 'Decrypted string:', decoded
-
-
+		
+#save output of this file to table.txt
+#python3 lookuptable.py > table.txt
