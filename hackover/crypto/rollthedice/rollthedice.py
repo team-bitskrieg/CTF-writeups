@@ -32,6 +32,8 @@ while(True):
 	decode_server = DecodeAES(cipher_server, roll1[3])
 	first2=decode_server[:2]
 
+	#take a look at lookuptable.py and table.txt to see how the keys are generated
+	
 	if first2=='\x00\x01':
 		our_key=base64.b64encode(binascii.unhexlify('feaa4504f380c37ecfa7041d14b39845'))
 		tube.sendafter("Your key: ",our_key)
