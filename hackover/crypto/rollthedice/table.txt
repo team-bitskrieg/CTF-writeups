@@ -1,3 +1,6 @@
+Lookup table with dice face number and the corresponding key which is printed according to lookuptable.py
+We just need one for each case(1,2,3,4,5,6) for rollthedice.py
+
 1
 b'9dc14d6a933ac2dd31bec87a222beda7'
 6
