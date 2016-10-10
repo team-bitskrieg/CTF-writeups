@@ -27,6 +27,7 @@ None
 ```
 
 ##Solution
+Are you rich 1 can be solved by using SQL injection to pull the contents of the table that stores flag1, but there will be lots of other writeups that explain how to do that.
 I looked up the richest bitcoin wallet. As of when I wrote this, it was
 >https://bitinfocharts.com/bitcoin/address/3Nxwenay9Z8Lc9JBiywExpnEFiLp6Afp8v
 
