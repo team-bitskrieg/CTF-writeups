@@ -36,5 +36,9 @@ Both flags can now be obtained by SQL injection
 Flag 1:
 >hitcon{4r3_y0u_r1ch?ju57_buy_7h3_fl4g!!}
 
+![bump](Bitcoin Shop.png)
+
 Flag 2:
 >hitcon{u51n6_07h3r_6uy5_b17c0n_70_byp455_ch3ck1n6_15_fun!!}
+
+![bump](Bitcoin Shop2.png)
