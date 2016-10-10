@@ -32,3 +32,9 @@ I looked up the richest bitcoin wallet. As of when I wrote this, it was
 
 Both flags can now be obtained by SQL injection
 >3Nxwenay9Z8Lc9JBiywExpnEFiLp6Afp8v' UNION SELECT '3Nxwenay9Z8Lc9JBiywExpnEFiLp6Afp8v';#
+
+Flag 1:
+>hitcon{4r3_y0u_r1ch?ju57_buy_7h3_fl4g!!}
+
+Flag 2:
+>hitcon{u51n6_07h3r_6uy5_b17c0n_70_byp455_ch3ck1n6_15_fun!!}
