@@ -21,7 +21,7 @@ The py file is running python bytecode using marshal.load. The bytecode itself c
 
 This gives us [the bytecode](bytecode). The file is still missing the 8 byte header that all pyc files have. To fix this, compile any py file into a pyc and do
 >head -c 8 example.pyc > bytecode.pyc
-cat bytecode >> bytecode.pyc
+>cat bytecode >> bytecode.pyc
 
 The resulting pyc will be executable. This can now be disassembled [like this](disassembly.log).
 Here we can see why the code can't be decompiled with uncompyle2 or other similar tools. The ROT_TWO instruction rotates the top two stack items. By calling two successive ROT_TWO, the stack is returned to the same state as before the instruction sequence. So, these sequences have no effect on the logic of the code, but may confuse decompilers.
