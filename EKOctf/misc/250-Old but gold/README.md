@@ -19,7 +19,7 @@ Attachment
 The zip file has 14 sheets of FORTRAN punch codes. [this site](https://userpages.umbc.edu/~jmartens/misc/card/index.html) shows how to decode the punch cards.
 Heisenberg wrote a script that reads the images and gives the corresponding characters.
 
-[heisen_pro.py](heisen_pro.py)
+[r3ad4tran.py](r3ad4tran.py)
 
 ```
 ONCE UPON A TEME, THERE WAS A YOUNG HACKER CALLED MJ                               f7191b128c49ecfef0b27cd049550ae75249f86b.png
