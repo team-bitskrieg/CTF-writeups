@@ -7,8 +7,8 @@ Solved by illustris,HSR0,lum0s
 All you have to do is to see this damaged image!
 
 Attachment
-[for75_165560e4a08b23f7.zip](for75_165560e4a08b23f7.zip)
 ```
+[for75_165560e4a08b23f7.zip](for75_165560e4a08b23f7.zip)
 
 ##Solution
 
@@ -30,4 +30,5 @@ To do this, first we filles the missing 14 bytes as
 We then replaced BB BB BB BB with the offset of the pixel array. THis is easy to identify, as it looks like a block of FFs in this case. The starting address is 36, written as 36 00 00 00 in little endian form. Lastly, we calculated the new size of the file and replaced AA AA AA AA with 36 75 00 00.
 
 The image can now be opened.
+
 ![bump](out.bmp)
