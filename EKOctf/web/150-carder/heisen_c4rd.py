@@ -3,6 +3,7 @@ hue = """
 
 Eyy h4x0r! Gimme valid numbers!
 
+
 Visa
 4485
 rest of your number
